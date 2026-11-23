@@ -4,6 +4,28 @@ Short prompts for the moments the `/ticket` skill doesn't cover. Copy, fill in t
 
 ---
 
+## 0. First 10 minutes in a new repo
+
+**Ask the team before starting:**
+- Which branch do I work from, and do you want one branch per ticket?
+- Is the environment ready (runtime versions, database, env files), or is there a setup step?
+- Am I allowed to add skills or local instruction files? Any tools I shouldn't use?
+- Does the repo have a CLAUDE.md or AGENTS.md you rely on?
+- What format do you want for design work: a doc in the repo, a ticket breakdown, a diagram?
+- How do you want me to check in: after each ticket, or only when I'm stuck?
+
+**Check yourself (read-only):**
+```bash
+git status && git branch --show-current && git log --oneline -10
+ls -a                       # README, CLAUDE.md, AGENTS.md, .claude/, docs/
+cat package.json | head -40 # engines, packageManager, scripts (or the equivalent manifest)
+node -v                     # or the runtime this repo uses
+```
+
+**Then** set up the workflow files if allowed (see the README), and run orientation (1) or the [codebase map](codebase-mapping.md).
+
+---
+
 ## 1. Quick orientation (time-boxed)
 
 For when there's no time for the full [codebase map](codebase-mapping.md).
@@ -60,6 +82,8 @@ design to fit how this codebase already works. Cover:
 9. Test plan
 Mark every assumption. Keep it to what a reviewer can read in 10 minutes.
 ```
+
+Then check the data model against [database-design.md](database-design.md).
 
 ---
 
