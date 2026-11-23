@@ -14,6 +14,7 @@ The idea behind all of it: the agent writes most of the code, and I direct, revi
 | [skills/ticket/impact-checklist.md](skills/ticket/impact-checklist.md) | Blast-radius checklist used in the plan and again on the final diff. |
 | [codebase-mapping.md](codebase-mapping.md) | Prompt for mapping an unfamiliar repo with parallel subagents, plus a quick mode. |
 | [database-design.md](database-design.md) | Schema design and review checklist, a prompt that runs it, and refreshers on the principles. |
+| [SKILLS.md](SKILLS.md) | The skills and plugins I use, with sources and install commands. |
 
 ## Option A: install in one repo
 
