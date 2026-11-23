@@ -18,7 +18,7 @@ $ARGUMENTS
 ## How we work together
 
 - Work in the phases below. At each **Stop for review**, stop and wait for my go-ahead.
-- Prefer these skills where they fit: systematic-debugging for bugs, test-driven-development while you implement, verification-before-completion before you call anything done. If a skill isn't available, apply the same discipline yourself.
+- Prefer these skills where they fit: systematic-debugging for bugs, test-driven-development while you implement, verification-before-completion before you call anything done. If a skill isn't available, apply the same discipline yourself. If gstack is installed, `/plan-eng-review` fits the end of Phase 3 and `/review` fits Phase 6.
 
 ## Phase 1: Understand. Stop for review.
 

@@ -111,6 +111,7 @@ Don't commit until I say so. Stage files by name, never git add -A.
 
 Short corrections for mid-session.
 
+- `We're time-boxed to {{N}} minutes. Combine Phases 1 to 3 into one report, then implement without stopping between steps. Phases 5 and 6 still run in full.`
 - `Simplest fix that changes nothing global, please.`
 - `You're over-investigating. Give me your best answer now and what you're unsure about.`
 - `Show me the evidence: the command and its output.`
