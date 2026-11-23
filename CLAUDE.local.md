@@ -11,6 +11,12 @@ This is a production codebase that real users depend on. I review every change w
 - If you find something surprising (a second bug, dead code, a test that looks wrong, a rule that conflicts with the task), stop and tell me. Don't fix it silently.
 - Don't follow a convention blindly or break one silently. If you think a documented rule or an existing pattern is the wrong choice for a change, explain the alternative and let me decide.
 
+## Code quality
+
+- Search for existing helpers and reuse them before writing new ones.
+- Don't add a new abstraction (interface, base class, wrapper, config option) unless this change needs it now.
+- Handle errors the way neighbouring code does. No silent catches.
+
 ## Hard rules
 
 - Don't change anything outside the agreed scope without asking first.
